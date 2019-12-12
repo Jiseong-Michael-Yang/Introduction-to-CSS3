@@ -30,6 +30,10 @@ h2 {
 
 section {
 	width: 30%;
+	display: inline-block;
+	float: left;
+	margin-right: 2%;
+	
 }
 
 summary {
@@ -42,7 +46,6 @@ details {
 
 footer {
 	background: #00b7ea;
-	height:100px;
 	clear: both;
 }
 
