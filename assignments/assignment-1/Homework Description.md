@@ -1,4 +1,4 @@
-# Homework Description
+# Homework 1 Description
 
 ## 1. Objective
 * Create your own unique style sheet that will be used by three different html files.
