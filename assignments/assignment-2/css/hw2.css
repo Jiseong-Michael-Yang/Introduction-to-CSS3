@@ -1,5 +1,6 @@
 body {
-    /* Change padding and margin */
+    margin: 2%;
+    padding: 1px;
 }
 
 header {
@@ -7,64 +8,54 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
-  }
-
-.right {
-    display: inline-block;
-    font-family: "Times New Roman", Times, serif;
-    font-size: medium;
-    background-color: rgb(67, 71, 70);
-}
-
-.left {
-    display: inline-block;
-    background-color: #B8860B;
-}
-
-.left img {
-    display: block;
-    width: 200px;
-    margin: 20px;
-    border: 2px;
-    padding: 0;
-    border-color: #000000;
+    
 }
 
 h1 {
     color: #F1F1F1;
-    font-size: 30px;
-    padding: 20px 0px 10px 0px;
-    font-family: "Times New Roman", Times, serif;
-    text-transform: uppercase;
+    padding: 10px;
     text-align: center;
+    font-size: 2.5rem;
+    padding: 20px 0 0 0;
 }
 
 nav {
-    font-size: 25px;
     text-align: center;
 }
 
-nav > a {
+nav a {
     display: inline-block;
-    width: 15%;
-    background-color: rgb(255, 255, 255, 0.5);
-    margin: 0px 20px;
-    padding: 20px;
-    border-radius: 15%;
+    width: 150px;
+    margin: 20px 50px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #000000;
+    border-radius: 10%;
     text-decoration: none;
 }
 
 .active {
     background: #FFFFFF;
+    color: #000000;
 }
 
-h2 {
-    color: rgba(5, 12, 109, 0.856); 
-    font-family: "Times New Roman", Times, serif;
+.left {
+    display: inline-block;
+    background-color: #808000;
+    width: 15%;
+    height: 700px;
+    margin: 0 1% 0 0;
 }
 
-a {
-    color: black;
-    background-color: rgba(190, 224, 215, 0.664);
-    font-family: "Times New Roman", Times, serif;
+.right {
+    display: inline-block;
+    width: 83%;
+    float: right;
+}
+
+.left img {
+    display: block;
+    width: 150px;
+    margin: 30px 20px;
+    border: 2px solid #000000;
 }
